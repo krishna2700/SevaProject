@@ -22,6 +22,7 @@ const App = () => {
           element={isAuthenticated ? <Home /> : <Navigate to="/login" />}
         />
         <Route path="/login" element={<Login />} />
+        <Route path="/Home" element={<Home />} />
         <Route path="/register" element={<Register />} />
       </Routes>
     </Router>
